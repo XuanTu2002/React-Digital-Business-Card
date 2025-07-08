@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  background-color: #23252C;
+  color: white;
+}
+
+#root {
+  /* border: 3px solid red; */
+  margin: 0 auto;
+  /* width: 320px; */
+}
+
+.ctn-app {
+  /* border: 3px solid greenyellow; */
+  width: 325px;
+  margin: 50px auto;
+  background-color: #1A1B21;
+}
+
+.ctn-info {
+  text-align: center;
+  background-color: #1A1B21;
+  border-radius: 250px;
+
+}
+
+.ctn-info>h1 {
+  background-color: #1A1B21;
+}
+
+/* Skills list styling */
+.ctn-skills {
+  background-color: #1A1B21;
+  padding: 0 20px 20px;
+}
+
+.ctn-skills h3 {
+  background-color: #1A1B21;
+  margin: 0 0 15px 0;
+  padding-top: 20px;
+}
+
+.ctn-skills-list {
+  background-color: #1A1B21;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.ctn-about-items {
+  background-color: #1A1B21;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.ctn-about-items:last-child {
+  margin-bottom: 0;
+}
+
+.ctn-skills-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.ctn-info>h4 {
+  background-color: #1A1B21;
+}
+
+.ctn-info-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1A1B21;
+  height: 34px;
+}
+
+i {
+  margin: 5px;
+}
+
+.btn-email {
+  color: #374151;
+  background-color: #D1D5DB;
+  border-radius: 5px;
+}
+
+.btn-linkedin {
+  color: white;
+  background-color: #5093E2;
+  border-radius: 5px;
+}
+
+.about,
+.about h3,
+.about p {
+  /* border: 1px solid red; */
+  background-color: #1A1B21;
+  padding: 0 20PX;
+}
+
+.ctn-skills,
+.ctn-skills h3,
+.ctn-skills .ctn-skills-list .ctn-about-items {
+  background-color: #1A1B21;
+  padding: 0 20PX;
+}
+
+/*Footer styling */
+
+footer {
+  background-color: #161619;
+  margin-top: 10px;
+}
+
+.ctn-footer {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #161619;
+}
+
+.ctn-footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #161619;
+}
+
+.ctn-footer-icons a {
+  color: #918E9B;
+  font-size: 25px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color: #161619;
+}
+
+.ctn-footer-icons a:hover {
+  color: #5093E2;
+}
